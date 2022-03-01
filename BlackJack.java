@@ -61,7 +61,7 @@ public class BlackJack extends Deck
             else if(dealerTotal > playerTotal){
                 System.out.println("Dealer had " + dealerTotal + " and you had " + playerTotal + ". You Lose");
             }   
-            else if(playerTotal < dealerTotal){
+            else if(playerTotal > dealerTotal){
                 System.out.println("You had " + playerTotal + " and the dealer had " + dealerTotal + ". You Win");
             }
             else if(playerTotal == dealerTotal){
